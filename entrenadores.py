@@ -28,4 +28,3 @@ def obtener_entrenadores_trabajando():
         if entrenador["rutas_asignadas"]:
             print(f"{entrenador_id}: {entrenador['nombre']} - Rutas: {', '.join(entrenador['rutas_asignadas'])}")
 
-# Agrega más funciones según sea necesario
